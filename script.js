@@ -41,6 +41,7 @@ const NameB=document.getElementById("Bitem1");
 const LocB=document.getElementById("Bitem2");
 const CityB=document.getElementById("Bitem3");
 
+
 // const Data=JSON.parse(ListingData);
 // console.log(Data);
 
@@ -49,8 +50,8 @@ const CityB=document.getElementById("Bitem3");
 console.log(ListingData)
 
 NameA.innerHTML=ListingData[0].name;
-LocA.innerHTML=ListingData[0].location;
-CityA.innerHTML=ListingData[0].city;
+hy2.innerHTML=ListingData[0].location;
+hy3.innerHTML=ListingData[0].city;
 NameB.innerHTML=ListingData[1].name;
 LocB.innerHTML=ListingData[1].location;
 CityB.innerHTML=ListingData[1].city;
