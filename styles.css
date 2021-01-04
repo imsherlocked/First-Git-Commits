@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: burlywood;
+
+}
+
+
+.mainimage{
+    
+    
+    height: 60vh;
+    
+}
+
+.image{
+    width: 100%;
+    object-fit: fill;
+    height: 60vh;
+}
+
+.card{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+
+.card-data{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    border: 1px solid black;
+}
+
+.card-img{
+    width: 40%;
+    object-fit: fill;
+    height: 40vh;
+    padding: 20px;
+}
+
+.list-item1{
+    
+    height: 20vh;
+    width: 20%;
+    padding: 20px;
+}
+
+.btn{
+    height: 7vh;
+    width: 10%;
+    position: relative;
+    left:300px;
+    top: 70px;
+    background-color: rgba(5, 190, 5, 0.75);
+    border-radius: 8px;
+    border: 2px solid rgb(19, 110, 19);
+    cursor: pointer;
+}
+
